@@ -10,4 +10,4 @@
  ```
 ## Demonstração
 
-!(Demonstração)[https://github.com/DarkMCT/host_images/blob/master/BoyerMooreAlgorithm.gif]
+![Demonstração](https://github.com/DarkMCT/host_images/blob/master/BoyerMooreAlgorithm.gif)
