@@ -1,13 +1,14 @@
 # Boyer─Moore String-Search Algorithm
 
-## Funcionamento
+## Background
   [https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
  
-## Uso
+## How to use & Test
  ```bash
+ git clone https://github.com/MatheusCTeixeira/BoyerMooreStringSearchAlgorithm
+ cd BoyerMooreStringSearchAlgorithm
  make
  ./boyer_moore_algorithm [text] [target]
  ```
-## Demonstração
-
-![Demonstração](https://github.com/DarkMCT/host_images/blob/master/BoyerMooreAlgorithm.gif)
+## Example
+![Example](https://github.com/DarkMCT/host_images/blob/master/BoyerMooreAlgorithm.gif)
