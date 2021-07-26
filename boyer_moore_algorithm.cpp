@@ -52,12 +52,12 @@ int findHowMuchToAdvance(const string &target, char pattern) {
 
 // Retorna a primeira ocorrência de "target" em "text" e -1, caso contrário.
 int boyerMooreAlgorithm(string text, string target) {
-    constexpr int notFinded    = -1;
+    constexpr int notFound    = -1;
     const     int targetLength = target.length();
     const     int textLength   = text.length();
     int       curPosition      = targetLength - 1;
 
-    if (textLength < targetLength) return notFinded;
+    if (textLength < targetLength) return notFound;
 
     while (curPosition >= 0 && curPosition < textLength) {
         // Compara se são iguais, caso contrário, coloque o cursor sobre o
@@ -76,7 +76,7 @@ int boyerMooreAlgorithm(string text, string target) {
 
     // Se alcançou este ponto, o valor especificado em "target" não está
     // presente.
-    return notFinded;
+    return notFound;
 }
 
 int main(int argc, char** argv) {
